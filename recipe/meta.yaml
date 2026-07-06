@@ -1,5 +1,5 @@
 {% set name = "pidcalib2" %}
-{% set version = "1.5.2" %}
+{% set version = "1.5.3" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/c5/e0/5fdd20c274f6318360312ff03800eeb2ba4946a1316575e8bedb77bfca72/pidcalib2-{{ version }}.tar.gz
-  sha256: 311295cee0ba6b3f014a46b2c3bc55bd534826ba3143026a6f678f60ebeec634
+  url: https://files.pythonhosted.org/packages/9a/3d/b7f27a2f406306af006813f67a59bfa5d41f43df70ca5a782c220177d83e/pidcalib2-{{ version }}.tar.gz
+  sha256: 9f916a2919674a816913585854e39454d1f09f4c81697c762d6982ae5a3579aa
 
 build:
   number: 0
