@@ -11,7 +11,7 @@ source:
   sha256: 9f916a2919674a816913585854e39454d1f09f4c81697c762d6982ae5a3579aa
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - pidcalib2.make_eff_hists = pidcalib2.make_eff_hists:main
@@ -40,7 +40,7 @@ requirements:
     - uproot3
     - matplotlib-base
     - mplhep
-    - xrootd >=5.2
+    - python-xrootd
     - apd
 
 test:
