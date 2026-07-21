@@ -1,5 +1,5 @@
 {% set name = "pidcalib2" %}
-{% set version = "1.5.3" %}
+{% set version = "1.5.4" %}
 
 
 package:
@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/9a/3d/b7f27a2f406306af006813f67a59bfa5d41f43df70ca5a782c220177d83e/pidcalib2-{{ version }}.tar.gz
-  sha256: 9f916a2919674a816913585854e39454d1f09f4c81697c762d6982ae5a3579aa
+  url: https://files.pythonhosted.org/packages/04/6f/9c8b373042835304405c4baaf23fecf2062e6a55e05c5fea4c69cce81273/pidcalib2-{{ version }}.tar.gz
+  sha256: 3bcc9bc20b8134abe534d148948376185a270b17f76fb054712e4c5db98bb98a
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - pidcalib2.make_eff_hists = pidcalib2.make_eff_hists:main
